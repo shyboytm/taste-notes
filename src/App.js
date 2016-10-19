@@ -6,7 +6,7 @@ import Header from './components/Header/index.jsx';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App bg-light-gray">
         <Header />
       </div>
     );
