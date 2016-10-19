@@ -18,6 +18,13 @@ class Coffee extends Component {
           rating="9 / 10"
           readLink="#"
           coffeeImageSource={imgOne} />
+          <CoffeePost
+            title="Las Colinas"
+            coffee="George Howell Coffee"
+            tasteNotes="Passion Fruit, Chocolate, Black Tea"
+            rating="9 / 10"
+            readLink="#"
+            coffeeImageSource={imgOne} />
       </div>
     );
   }
