@@ -32,14 +32,16 @@ class CoffeePost extends Component {
               <h3 className="courier bold black mb1 f5">Taste Notes</h3>
               <p className="courier black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
             </div>
-            <div>
-              <h3>Rating</h3>
-              <p>{rating}</p>
-            </div>
-            <div>
-              <a href={readLink}>
-                <h2>Read Review</h2>
-              </a>
+            <div className="cf">
+              <div className="fl">
+                <h3 className="courier fw4 ttu mb2 dib black-60 f5">Rating</h3>
+                <p className="biorhyme fw7 mt0 mb2">{rating}</p>
+              </div>
+              <div className="fr-l fl">
+                <a className="link" href={readLink}>
+                  <h2 className="biorhyme black f4 dim pt3">Read Review</h2>
+                </a>
+              </div>
             </div>
           </div>
         </div>
