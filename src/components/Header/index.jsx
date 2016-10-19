@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 
 class Header extends Component {
@@ -15,7 +16,7 @@ class Header extends Component {
             <a className="biorhyme link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Coffee">Coffee</a>
             <a className="biorhyme link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Methods">Methods</a>
             <a className="biorhyme link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Gear">Gear</a>
-            <a className="biorhyme link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="About">About</a>
+            <Link className="biorhyme link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/about" title="About">About</Link>
           </div>
         </div>
       </div>
