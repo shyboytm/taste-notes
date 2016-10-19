@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Router, Route, browserHistory } from 'react-router';
+import { render } from 'react-dom';
+
 
 class Header extends Component {
   render() {
