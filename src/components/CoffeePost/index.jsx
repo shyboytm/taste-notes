@@ -22,15 +22,15 @@ class CoffeePost extends Component {
     return (
       <div>
         <div className="w-50-l w-80-m w-100 fl-l">
-          <img className="z-max" src={coffeeImageSource} alt="Coffee" />
-          <div className="z-1 info-margin bg-white pa2 w-80 center">
+          <img className="relative z-1" src={coffeeImageSource} alt="Coffee" />
+          <div className="relative z-max info-margin bg-white ph4 pv3 w-80 center">
             <div>
-              <h1 className="biorhyme fw3">{title}</h1>
-              <span>{coffee}</span>
+              <h1 className="biorhyme fw3 lh-title mb2">{title}</h1>
+              <span className="courier ttu mt0 mb2 dib black-60 f5">{coffee}</span>
             </div>
             <div>
-              <h3>Taste Notes</h3>
-              <p>{tasteNotes}</p>
+              <h3 className="courier bold black mb1 f5">Taste Notes</h3>
+              <p className="courier black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
             </div>
             <div>
               <h3>Rating</h3>
