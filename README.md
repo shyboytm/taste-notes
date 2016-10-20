@@ -1,6 +1,6 @@
-#Mocha
+#Taste Notes
 
-Coffee reference of Dennis Cortés.
+Coffee Thoughts & Reference of Dennis Cortés.
 
 A visual reference of coffee I have tried and brewed at home along with my thoughts on the roast.
 
