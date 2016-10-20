@@ -6,7 +6,7 @@ import CoffeePost from '../CoffeePost/index.jsx'
 class Coffee extends Component {
   render() {
 
-    // const imgTwo = require('../../img/roast.jpg');
+    const imgTwo = require('../../img/las-colinas.jpg');
     const imgOne = require('../../img/hakimson-estate-peaberry.jpg');
 
     return (
@@ -18,7 +18,7 @@ class Coffee extends Component {
             tasteNotes="Passion Fruit, Chocolate, Black Tea"
             rating="8 / 10"
             readLink="#"
-            coffeeImageSource={imgOne} />
+            coffeeImageSource={imgTwo} />
 
           <CoffeePost
             title="Hakimson Estate Peaberry"
