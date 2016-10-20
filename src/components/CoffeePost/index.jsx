@@ -26,7 +26,7 @@ class CoffeePost extends Component {
           <div className="relative z-max info-margin bg-white ph4 pv3 w-80 center">
             <div>
               <h1 className="biorhyme fw3 lh-title mb2 mt3 f2-ns f3">{title}</h1>
-              <span className="space-mono tracked ttu mt0 mb2 dib black-60 f5">{coffee}</span>
+              <span className="space-mono red tracked ttu mt0 mb2 dib black-60 f5">{coffee}</span>
             </div>
             <div>
               <h3 className="space-mono bold black mb1 f5">Taste Notes</h3>
