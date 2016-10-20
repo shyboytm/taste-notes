@@ -23,7 +23,7 @@ class Coffee extends Component {
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
-            tasteNotes="Passion Fruit, Chocolate, Black Tea"
+            tasteNotes="Tart Cherry, Limeade, Papaya"
             rating="9 / 10"
             readLink="#"
             coffeeImageSource={imgOne} />
