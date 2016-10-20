@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="w-80-l w-90 center cf">
+        <div className="w-90-ns w-100 pv5 center cf">
           <Coffee />
         </div>
       </div>

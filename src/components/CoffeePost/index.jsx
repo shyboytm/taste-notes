@@ -39,7 +39,7 @@ class CoffeePost extends Component {
               </div>
               <div className="fr">
                 <a className="link" href={readLink}>
-                  <h2 className="biorhyme black hover-red f4 pt3">Read Review</h2>
+                  <h2 className="biorhyme black hover-red f4-ns f5 pt3">Read Review</h2>
                 </a>
               </div>
             </div>
