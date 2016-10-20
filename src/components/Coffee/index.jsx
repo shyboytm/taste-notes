@@ -11,9 +11,6 @@ class Coffee extends Component {
 
     return (
       <div className="w-90-ns w-100 pv5-ns center cf">
-        <p className="space-mono db mb5-ns mb3 lh-copy tl-l tc">Coffee Thoughts &amp; Reference<br/>
-          <a className="i black-60 link hover-red" href="http://cortes.us">of Dennis Cortés</a>
-        </p>
         <div className="content-end">
           <CoffeePost
             title="Las Colinas"
