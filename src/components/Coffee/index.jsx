@@ -10,7 +10,7 @@ class Coffee extends Component {
 
     return (
       <div>
-        <h1>Coffee</h1>
+        
         <CoffeePost
           title="Las Colinas"
           coffee="George Howell Coffee"
@@ -18,6 +18,7 @@ class Coffee extends Component {
           rating="9 / 10"
           readLink="#"
           coffeeImageSource={imgOne} />
+
         <CoffeePost
           title="Las Colinas"
           coffee="George Howell Coffee"
@@ -25,6 +26,7 @@ class Coffee extends Component {
           rating="9 / 10"
           readLink="#"
           coffeeImageSource={imgOne} />
+
       </div>
     );
   }
