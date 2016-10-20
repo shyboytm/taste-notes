@@ -1,7 +1,7 @@
 @import "tachyons.min.css";
 
 .biorhyme     { font-family: 'BioRhyme', serif; }
-.cutive       { font-family: 'Cutive Mono', monospace; }
+.space-mono   { font-family: 'Space Mono', Courier, monospace; }
 .info-margin  { margin-top: -75px; }
 
 @keyframes App-logo-spin {

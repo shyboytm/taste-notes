@@ -26,15 +26,15 @@ class CoffeePost extends Component {
           <div className="relative z-max info-margin bg-white ph4 pv3 w-80 center">
             <div>
               <h1 className="biorhyme fw3 lh-title mb2 mt3 f2-ns f3">{title}</h1>
-              <span className="courier ttu mt0 mb2 dib black-60 f5">{coffee}</span>
+              <span className="space-mono tracked ttu mt0 mb2 dib black-60 f5">{coffee}</span>
             </div>
             <div>
-              <h3 className="courier bold black mb1 f5">Taste Notes</h3>
-              <p className="courier black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
+              <h3 className="space-mono bold black mb1 f5">Taste Notes</h3>
+              <p className="space-mono black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
             </div>
             <div className="cf">
               <div className="fl">
-                <h3 className="courier fw4 ttu mb2 dib black-60 f5">Rating</h3>
+                <h3 className="space-mono fw4 tracked ttu mb2 dib black-60 f5">Rating</h3>
                 <p className="biorhyme fw7 mt0 mb2 red">{rating}</p>
               </div>
               <div className="fr">
