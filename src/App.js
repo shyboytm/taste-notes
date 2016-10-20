@@ -13,9 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="w-90-ns w-100 pv5 center cf">
-          <Coffee />
-        </div>
+        <Coffee />
       </div>
     );
   }
@@ -24,7 +22,7 @@ class App extends Component {
 render((
   <Router history={browserHistory}>
     <Route path="/*" component={App}>
-      <IndexRoute component={About} />
+      <IndexRoute component={App} />
       <Route path="/about" component={About} />
     </Route>
   </Router>
