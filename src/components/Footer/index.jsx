@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div className="pv3 w-90 center tl-l mb2-l mb4 mb0-l">
+      <div className="pv4 w-90 center tl-l mb2-l mb4 mb0-l">
         <a className="link tc" href="#" title="Home">
           <h2 className="biorhyme f5 black-60 hover-black lh-copy fw7 ttu tracked-mega">Taste<br />Notes</h2>
         </a>
