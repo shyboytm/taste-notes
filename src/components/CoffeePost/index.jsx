@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class CoffeePost extends Component {
   static propTypes = {
-    title: React.PropTypes.string,
-    coffee: React.PropTypes.string,
-    tasteNotes: React.PropTypes.string,
-    rating: React.PropTypes.string,
-    readLink: React.PropTypes.string,
-    coffeeImageSource: React.PropTypes.string
+    title: React.PropTypes.string.isRequired,
+    coffee: React.PropTypes.string.isRequired,
+    tasteNotes: React.PropTypes.string.isRequired,
+    rating: React.PropTypes.string.isRequired,
+    readLink: React.PropTypes.string.isRequired,
+    coffeeImageSource: React.PropTypes.string.isRequired
   };
 
   render() {

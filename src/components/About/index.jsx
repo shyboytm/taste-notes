@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import Banner from '../Banner/index.jsx';
 import Footer from '../Footer/index.jsx';
 import Header from '../Header/index.jsx';
 
@@ -7,6 +9,7 @@ class About extends Component {
     return (
       <div>
         <Header />
+        <Banner />
         <Footer />
       </div>
     );
