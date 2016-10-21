@@ -14,7 +14,7 @@ class About extends Component {
         <Header />
         <Banner bannerImageSource={aboutImg} />
         <div className="w-90-ns w-100 pv4-ns center">
-          <h2 className="mb6 tl-l tc f1-ns f3 biorhyme fw3">About Taste Notes</h2>
+          <h2 className="mb5 tc f1-ns f3 biorhyme fw3">About Taste Notes</h2>
           <div className="pv3-ns pv1 w-60-l w-80-m w-90 center">
             <p className="f4 mt0 space-mono lh-copy black b">
               Hey! My name is Dennis Cortes.
@@ -25,10 +25,13 @@ class About extends Component {
               with different roasts and brewing methods. Over time I've wanted to keep a
               record of coffee shops, roasts, brewing methods, and tools I try out.
             </p>
-            <p className="mb5 f4 space-mono lh-copy black-60">
+            <p className="f4 space-mono lh-copy black-60">
               Hence, Taste Notes was born. A little side project for me to update and keep
               memories of my coffee experiences and preferences. This project is mainly for
               myself, but I love seeing people enjoy this site and share their love for coffee.
+            </p>
+            <p className="mb5 f4 space-mono lh-copy black-60">
+              If you'd like to support the site, pick up some coffee tools from the Gear page!
             </p>
 
             <h4 className="f4 space-mono lh-title black">
@@ -37,6 +40,10 @@ class About extends Component {
             <p className="f4 space-mono lh-copy black-60">
               If you're interested, this site is (amateurly) built with:
             </p>
+            <ul>
+              <li className="lh-copy space-mono f4">React</li>
+              <li className="space-mono f4">Tachyons</li>
+            </ul>
           </div>
         </div>
         <Footer />
