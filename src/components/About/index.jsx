@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/index.jsx';
 
 
 class About extends Component {
@@ -6,6 +7,7 @@ class About extends Component {
     return (
       <div>
         <h1>About</h1>
+        <Footer />
       </div>
     );
   }
