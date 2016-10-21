@@ -6,10 +6,39 @@ import Header from '../Header/index.jsx';
 
 class About extends Component {
   render() {
+
+    const aboutImg = require('../../img/about-banner.jpg');
+
     return (
       <div>
         <Header />
-        <Banner />
+        <Banner bannerImageSource={aboutImg} />
+        <div className="w-90-ns w-100 pv4-ns center">
+          <h2 className="mb6 tl-l tc f1-ns f3 biorhyme fw3">About Taste Notes</h2>
+          <div className="pv3-ns pv1 w-60-l w-80-m w-90 center">
+            <p className="f4 mt0 space-mono lh-copy black b">
+              Hey! My name is Dennis Cortes.
+            </p>
+            <p className="f4 space-mono lh-copy black-60">
+              Amongst a couple other cliché designer traits, I love coffee and the craft
+              and culture behind it. I enjoy making my own coffee at home and experimenting
+              with different roasts and brewing methods. Over time I've wanted to keep a
+              record of coffee shops, roasts, brewing methods, and tools I try out.
+            </p>
+            <p className="mb5 f4 space-mono lh-copy black-60">
+              Hence, Taste Notes was born. A little side project for me to update and keep
+              memories of my coffee experiences and preferences. This project is mainly for
+              myself, but I love seeing people enjoy this site and share their love for coffee.
+            </p>
+
+            <h4 className="f4 space-mono lh-title black">
+              For the tech people:
+            </h4>
+            <p className="f4 space-mono lh-copy black-60">
+              If you're interested, this site is (amateurly) built with:
+            </p>
+          </div>
+        </div>
         <Footer />
       </div>
     );
