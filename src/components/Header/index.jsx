@@ -16,8 +16,8 @@ class Header extends Component {
           </div>
           <div className="db dtc-l v-mid w-100 w-75-l tc tr-l mb0-l mb3">
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/" title="Coffee">Coffee</Link>
-            <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" href="#" title="Methods">Methods</a>
-            <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" href="#" title="Gear">Gear</a>
+            <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" href="/" title="Methods">Methods</a>
+            <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" href="/" title="Gear">Gear</a>
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/about" title="About">About</Link>
           </div>
         </div>
