@@ -8,7 +8,6 @@ class CoffeePost extends Component {
     location: React.PropTypes.string.isRequired,
     thoughts: React.PropTypes.string.isRequired,
     rating: React.PropTypes.string.isRequired,
-    readLink: React.PropTypes.string.isRequired,
     coffeeImageSource: React.PropTypes.string.isRequired
   };
 
@@ -20,12 +19,11 @@ class CoffeePost extends Component {
       location,
       thoughts,
       rating,
-      readLink,
       coffeeImageSource } = this.props;
 
     return (
       <div>
-        <div className="w-50-l w-80-m w-100 fl-l ph3-l mb4 center">
+        <div className="items-start w-50-l w-80-m w-100 fl-l ph3-l mb5 center relative">
           <img className="relative z-1" src={coffeeImageSource} alt="Coffee" />
           <div className="relative z-max info-margin bg-white ph4 pv3 w-80 center">
             <div>

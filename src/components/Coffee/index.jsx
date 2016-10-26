@@ -18,8 +18,10 @@ class Coffee extends Component {
             coffee="Sweet Bloom"
             tasteNotes="Red Plum, White Grape, Brown Sugar"
             location="Guatemala"
+            thoughts="Really bright and sweet taste overall with a great aftertaste.
+                      Might be a bit too sweet for most coffee drinkers but I'm usually
+                      a fan of sweeter and lighter roasts."
             rating="8.5 / 10"
-            readLink="#"
             coffeeImageSource={imgThree} />
 
           <CoffeePost
@@ -27,20 +29,29 @@ class Coffee extends Component {
             coffee="George Howell Coffee"
             tasteNotes="Passion Fruit, Chocolate, Black Tea"
             location="Nicaragua"
+            thoughts=""
             rating="7.5 / 10"
-            readLink="#"
             coffeeImageSource={imgTwo} />
         </div>
+
         <div className="content-end">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
             tasteNotes="Tart Cherry, Limeade, Papaya"
             location="Kenya"
+            thoughts=""
             rating="9 / 10"
-            readLink="#"
             coffeeImageSource={imgOne} />
 
+            <CoffeePost
+              title="Hakimson Estate Peaberry"
+              coffee="Intelligentsia"
+              tasteNotes="Tart Cherry, Limeade, Papaya"
+              location="Kenya"
+              thoughts=""
+              rating="9 / 10"
+              coffeeImageSource={imgOne} />
         </div>
       </div>
     );
