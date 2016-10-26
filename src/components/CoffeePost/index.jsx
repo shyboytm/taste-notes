@@ -32,23 +32,18 @@ class CoffeePost extends Component {
               <h1 className="biorhyme fw3 lh-title mb2 mt3 f2-ns f3">{title}</h1>
               <span className="space-mono tracked ttu mt0 mb2 dib black-60 f5">{coffee}</span>
             </div>
-            <div>
-              <h3 className="space-mono bold black mb1 f5">Taste Notes</h3>
-              <p className="space-mono black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
-              <h3 className="space-mono bold black mb1 f5">Location</h3>
-              <p className="space-mono black-60 lh-copy mt0 mb2 f5">{location}</p>
-                <h3 className="space-mono bold black mb1 f5">Thoughts</h3>
-                <p className="space-mono black-60 lh-copy mt0 mb2 f5">{thoughts}</p>
-            </div>
             <div className="cf">
               <div className="fl">
-                <h3 className="space-mono fw4 tracked ttu mb2 dib black-60 f5">Rating</h3>
-                <p className="biorhyme fw7 mt0 mb2 red">{rating}</p>
+                <h3 className="space-mono bold black mb1 f5">Taste Notes</h3>
+                <p className="space-mono black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
+                <h3 className="space-mono bold black mb1 f5">Location</h3>
+                <p className="space-mono black-60 lh-copy mt0 mb2 f5">{location}</p>
+                <h3 className="space-mono bold black mb1 f5">Thoughts</h3>
+                <p className="space-mono black-60 lh-copy mt0 mb2 f5">{thoughts}</p>
               </div>
-              <div className="fr">
-                <a className="link" href={readLink}>
-                  <h2 className="biorhyme black hover-red f4-ns f5 pt3">Read Review</h2>
-                </a>
+              <div className="w-100 fr">
+                <h3 className="tr space-mono fw4 tracked ttu mb2 black-60 f5">Rating</h3>
+                <p className="tr biorhyme fw7 mt0 mb2 red f4">{rating}</p>
               </div>
             </div>
           </div>
