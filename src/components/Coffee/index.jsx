@@ -6,20 +6,30 @@ import CoffeePost from '../CoffeePost/index.jsx'
 class Coffee extends Component {
   render() {
 
-    const imgTwo = require('../../img/las-colinas.jpg');
-    const imgOne = require('../../img/hakimson-estate-peaberry.jpg');
+    const imgThree =  require('../../img/vista-hermosa.jpg');
+    const imgTwo =    require('../../img/las-colinas.jpg');
+    const imgOne =    require('../../img/hakimson-estate-peaberry.jpg');
 
     return (
       <div className="w-90-ns w-100 pv5-ns center cf">
         <div className="content-end">
           <CoffeePost
+            title="Vista Hermosa"
+            coffee="Sweet Bloom"
+            tasteNotes="Red Plum, White Grape, Brown Sugar"
+            rating="8.5 / 10"
+            readLink="#"
+            coffeeImageSource={imgThree} />
+
+          <CoffeePost
             title="Las Colinas"
             coffee="George Howell Coffee"
             tasteNotes="Passion Fruit, Chocolate, Black Tea"
-            rating="8 / 10"
+            rating="7.5 / 10"
             readLink="#"
             coffeeImageSource={imgTwo} />
-
+        </div>
+        <div className="content-end">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
@@ -27,6 +37,7 @@ class Coffee extends Component {
             rating="9 / 10"
             readLink="#"
             coffeeImageSource={imgOne} />
+
         </div>
       </div>
     );
