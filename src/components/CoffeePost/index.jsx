@@ -5,6 +5,8 @@ class CoffeePost extends Component {
     title: React.PropTypes.string.isRequired,
     coffee: React.PropTypes.string.isRequired,
     tasteNotes: React.PropTypes.string.isRequired,
+    location: React.PropTypes.string.isRequired,
+    thoughts: React.PropTypes.string.isRequired,
     rating: React.PropTypes.string.isRequired,
     readLink: React.PropTypes.string.isRequired,
     coffeeImageSource: React.PropTypes.string.isRequired
@@ -15,6 +17,8 @@ class CoffeePost extends Component {
       title,
       coffee,
       tasteNotes,
+      location,
+      thoughts,
       rating,
       readLink,
       coffeeImageSource } = this.props;
@@ -31,6 +35,10 @@ class CoffeePost extends Component {
             <div>
               <h3 className="space-mono bold black mb1 f5">Taste Notes</h3>
               <p className="space-mono black-60 lh-copy mt0 mb2 f5">{tasteNotes}</p>
+              <h3 className="space-mono bold black mb1 f5">Location</h3>
+              <p className="space-mono black-60 lh-copy mt0 mb2 f5">{location}</p>
+                <h3 className="space-mono bold black mb1 f5">Thoughts</h3>
+                <p className="space-mono black-60 lh-copy mt0 mb2 f5">{thoughts}</p>
             </div>
             <div className="cf">
               <div className="fl">

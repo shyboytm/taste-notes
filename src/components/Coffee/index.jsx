@@ -17,6 +17,7 @@ class Coffee extends Component {
             title="Vista Hermosa"
             coffee="Sweet Bloom"
             tasteNotes="Red Plum, White Grape, Brown Sugar"
+            location="Guatemala"
             rating="8.5 / 10"
             readLink="#"
             coffeeImageSource={imgThree} />
@@ -25,6 +26,7 @@ class Coffee extends Component {
             title="Las Colinas"
             coffee="George Howell Coffee"
             tasteNotes="Passion Fruit, Chocolate, Black Tea"
+            location="Nicaragua"
             rating="7.5 / 10"
             readLink="#"
             coffeeImageSource={imgTwo} />
@@ -34,6 +36,7 @@ class Coffee extends Component {
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
             tasteNotes="Tart Cherry, Limeade, Papaya"
+            location="Kenya"
             rating="9 / 10"
             readLink="#"
             coffeeImageSource={imgOne} />
