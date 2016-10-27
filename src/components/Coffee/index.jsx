@@ -12,7 +12,7 @@ class Coffee extends Component {
 
     return (
       <div className="w-90-ns w-100 pv5-ns center cf">
-        <div className="content-end">
+        <div className="content-end flex-wrap">
           <CoffeePost
             title="Vista Hermosa"
             coffee="Sweet Bloom"
@@ -29,12 +29,14 @@ class Coffee extends Component {
             coffee="George Howell Coffee"
             tasteNotes="Passion Fruit, Chocolate, Black Tea"
             location="Nicaragua"
-            thoughts=""
+            thoughts="Really bright and sweet taste overall with a great aftertaste.
+                      Might be a bit too sweet for most coffee drinkers but I'm usually
+                      a fan of sweeter and lighter roasts."
             rating="7.5 / 10"
             coffeeImageSource={imgTwo} />
         </div>
 
-        <div className="content-end">
+        <div className="content-end flex-wrap">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
@@ -43,15 +45,6 @@ class Coffee extends Component {
             thoughts=""
             rating="9 / 10"
             coffeeImageSource={imgOne} />
-
-            <CoffeePost
-              title="Hakimson Estate Peaberry"
-              coffee="Intelligentsia"
-              tasteNotes="Tart Cherry, Limeade, Papaya"
-              location="Kenya"
-              thoughts=""
-              rating="9 / 10"
-              coffeeImageSource={imgOne} />
         </div>
       </div>
     );
