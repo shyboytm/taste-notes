@@ -14,7 +14,7 @@ class About extends Component {
         <Header />
         <Banner bannerImageSource={aboutImg} />
         <div className="w-90-ns w-100 pv4-ns center">
-          <h2 className="mb5 tc f1-ns f3 biorhyme fw3">About Taste Notes</h2>
+          <h2 className="mv4 tc f1-ns f3 biorhyme fw3">About Taste Notes</h2>
           <div className="pv3-ns pv1 w-60-l w-80-m w-90 center">
             <p className="f4 mt0 space-mono lh-copy black b">
               Hey! My name is Dennis Cortes.
