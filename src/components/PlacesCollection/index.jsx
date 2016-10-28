@@ -12,7 +12,7 @@ class PlacesCollection extends Component {
 
     return (
       <div className="w-90-ns w-100 pv5-ns center cf">
-        <div className="content-end">
+        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Barista Parlor GT"
             location="Nashville, TN"
@@ -34,7 +34,7 @@ class PlacesCollection extends Component {
             shopImageSource={imgThree} />
         </div>
 
-        <div className="content-end">
+        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Barista Parlor Germantown"
             location="Nashville, TN"

@@ -11,7 +11,7 @@ class Coffee extends Component {
 
     return (
       <div className="w-90-ns w-100 pv5-ns center cf">
-        <div className="content-end flex-wrap">
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Vista Hermosa"
             coffee="Sweet Bloom"
@@ -35,7 +35,7 @@ class Coffee extends Component {
             coffeeImageSource={imgTwo} />
         </div>
 
-        <div className="content-end flex-wrap">
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
