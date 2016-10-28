@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import CoffeePost from '../CoffeePost/index.jsx'
-// import LogoImg from '../../img/roast.jpg';
+import CoffeePost from '../CoffeePost'
 
 class Coffee extends Component {
   render() {

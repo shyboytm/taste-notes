@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Header from '../Header/index.jsx';
-import CoffeeCollection from '../CoffeeCollection/index.jsx';
-import Footer from '../Footer/index.jsx';
+import Header from '../Header';
+import CoffeeCollection from '../CoffeeCollection';
+import Footer from '../Footer';
 
 class Home extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Banner from '../Banner/index.jsx';
-import Footer from '../Footer/index.jsx';
-import Header from '../Header/index.jsx';
+import Banner from '../Banner';
+import Footer from '../Footer';
+import Header from '../Header';
 
 class About extends Component {
   render() {

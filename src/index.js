@@ -3,9 +3,9 @@ import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import Home from './components/Home/index.jsx';
-import About from './components/About/index.jsx';
-import Places from './components/Places/index.jsx';
+import Home from './components/Home';
+import About from './components/About';
+import Places from './components/Places';
 
 import './index.css';
 
