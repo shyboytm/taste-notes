@@ -2,7 +2,7 @@
 
 .biorhyme     { font-family: 'BioRhyme', serif; }
 .space-mono   { font-family: 'Space Mono', Courier, monospace; }
-.info-margin  { margin-top: -100px; }
+.info-margin  { margin-top: -75px; }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
