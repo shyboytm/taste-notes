@@ -9,7 +9,7 @@ Hosted on [coffee.cortes.us](http://coffee.cortes.us)
 ##Get Started
 
 ```
-git clone https://github.com/fromcortes/mocha.git
+git clone https://github.com/fromcortes/taste-notes.git
 cd mocha
 npm install (first time only)
 npm start
