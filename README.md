@@ -2,7 +2,7 @@
 
 Coffee Thoughts & Reference of Dennis Cortés.
 
-A visual reference of coffee I have tried and brewed at home along with my thoughts on the roast.
+A visual record of coffee shops, roasts, brewing methods, and tools I try out.
 
 Hosted on [coffee.cortes.us](http://coffee.cortes.us)
 
