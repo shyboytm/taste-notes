@@ -49,10 +49,10 @@ class PlacesCollection extends Component {
           <PlacesPost
             title="Barista Parlor GS"
             location="Nashville, TN"
-            good="Great ambiance, beautiful interior, usually quiet, incredible coffee and food,
-                  local-made pastries, a lot of seating"
-            bad="Baristas can be stuck up sometimes, everything is pretty expensive, outlets are
-                 hard to come by"
+            good="Amazing interior and ambiance, great food and coffee, really nice and skilled
+                  baristas, local pastries"
+            bad="Almost impossible to find an outlet, music isn't great and usually too loud, gets
+                 very crowded"
             rating="9 / 10"
             shopImageSource={imgBPGS} />
         </div>
@@ -67,14 +67,6 @@ class PlacesCollection extends Component {
                  for long periods of sitting"
             rating="7 / 10"
             shopImageSource={imgEighth} />
-
-          <PlacesPost
-            title="Barista Parlor Germantown"
-            location="Nashville, TN"
-            good="Guatemala"
-            bad="Great ambiance, beautiful interior, usually quiet, incredible coffee and food"
-            rating="8.5 / 10"
-            shopImageSource={imgBPGT} />
         </div>
       </div>
     );
