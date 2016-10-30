@@ -20,7 +20,7 @@ class Header extends Component {
           <div className="db dtc-l v-mid w-100 w-75-l tc tr-l mb0-l mb3">
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/" title="Coffee">Coffee</Link>
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/places" title="Places">Places</Link>
-            <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" href="/" title="Methods">Methods</a>
+            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/method" title="Method">Method</Link>
             <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" href="/" title="Gear">Gear</a>
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/about" title="About">About</Link>
           </div>

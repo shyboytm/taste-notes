@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class CoffeePost extends Component {
   static propTypes = {
     title: React.PropTypes.string.isRequired,
-    coffee: React.PropTypes.string.isRequired,
-    tasteNotes: React.PropTypes.string.isRequired,
     location: React.PropTypes.string.isRequired,
+    good: React.PropTypes.string.isRequired,
+    bad: React.PropTypes.string.isRequired,
     rating: React.PropTypes.string.isRequired,
-    coffeeImageSource: React.PropTypes.string.isRequired
+    shopImageSource: React.PropTypes.string.isRequired
   };
 
   render() {
