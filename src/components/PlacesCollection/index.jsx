@@ -5,10 +5,11 @@ import PlacesPost from '../PlacesPost'
 class PlacesCollection extends Component {
   render() {
 
-    const imgFour =   require('../../img/barista-parlor-gt.jpg');
-    const imgThree =  require('../../img/eighth-and-roast.jpg');
-    const imgTwo =    require('../../img/comet-coffee.jpg');
-    // const imgOne =    require('../../img/hakimson-estate-peaberry.jpg');
+    const imgComet =    require('../../img/comet-coffee.jpg');
+    const imgBPGT =   require('../../img/barista-parlor-gt.jpg');
+    const imgBPGS =   require('../../img/barista-parlor-gs.jpg');
+    const imgEighth =  require('../../img/eighth-and-roast.jpg');
+    const imgBond =    require('../../img/bond-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv5-ns center cf">
@@ -21,7 +22,7 @@ class PlacesCollection extends Component {
             bad="Not much seating, very crowded if you come in at the wrong time, espresso drinks
                  aren't very good"
             rating="8.5 / 10"
-            shopImageSource={imgTwo} />
+            shopImageSource={imgComet} />
 
           <PlacesPost
             title="Barista Parlor GT"
@@ -29,9 +30,31 @@ class PlacesCollection extends Component {
             good="Great ambiance, beautiful interior, usually quiet, incredible coffee and food,
                   local-made pastries, a lot of seating"
             bad="Baristas can be stuck up sometimes, everything is pretty expensive, outlets are
-                 hard to come by  to come by  to come by  to come by  to come by"
+                 hard to come by"
             rating="8.5 / 10"
-            shopImageSource={imgFour} />
+            shopImageSource={imgBPGT} />
+        </div>
+
+        <div className="content-end flex flex-wrap">
+          <PlacesPost
+            title="Bond Coffee"
+            location="Saint Louis, MO"
+            good="Great coffee both black and espresso, doesn't get crowded, great lighting, has
+                  lunch and ice cream"
+            bad="Not much seating, tables are very small, food isn't great, limited selection on
+                  food and drinks"
+            rating="7 / 10"
+            shopImageSource={imgBond} />
+
+          <PlacesPost
+            title="Barista Parlor GS"
+            location="Nashville, TN"
+            good="Great ambiance, beautiful interior, usually quiet, incredible coffee and food,
+                  local-made pastries, a lot of seating"
+            bad="Baristas can be stuck up sometimes, everything is pretty expensive, outlets are
+                 hard to come by"
+            rating="9 / 10"
+            shopImageSource={imgBPGS} />
         </div>
 
         <div className="content-end flex flex-wrap">
@@ -43,15 +66,15 @@ class PlacesCollection extends Component {
             bad="Can get very crowded, black coffee isn't too great, seating uncomfortable
                  for long periods of sitting"
             rating="7 / 10"
-            shopImageSource={imgThree} />
-          
+            shopImageSource={imgEighth} />
+
           <PlacesPost
             title="Barista Parlor Germantown"
             location="Nashville, TN"
             good="Guatemala"
             bad="Great ambiance, beautiful interior, usually quiet, incredible coffee and food"
             rating="8.5 / 10"
-            shopImageSource={imgThree} />
+            shopImageSource={imgBPGT} />
         </div>
       </div>
     );
