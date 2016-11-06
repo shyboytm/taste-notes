@@ -10,7 +10,7 @@ class Header extends Component {
       <div>
         <div className="bb b--black-10 db dt-l w-100 border-box pa3 ph5-l">
           <Link className="db dtc-l v-mid link w-100 w-25-l tc tl-l mb2-l mb4 mb0-l" to="/" title="Home">
-            <img className="w2 dim dib mr4" src={logo} alt="Taste Notes" />
+            <img className="w2 dim dib" src={logo} alt="Taste Notes" />
           </Link>
           <div className="db dtc-l v-mid w-100 w-25-l tc tl-l mb4 mb0-l">
             <p className="space-mono db black lh-copy tl-l tc">Coffee Thoughts &amp; Reference<br/>
