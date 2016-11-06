@@ -15,7 +15,7 @@ class PlacesCollection extends Component {
     const imgBond =         require('../../img/bond-coffee.jpg');
 
     return (
-      <div className="w-90-ns w-100 pv5-ns center cf">
+      <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Réveille Coffee"
@@ -32,7 +32,7 @@ class PlacesCollection extends Component {
             good="Modern interior, great overall branding and design, fast service, unique food,
                   decent coffee and food variety"
             bad="Very loud and crowded, expensive for the quality they provide, food is a bit too
-                  exotic for my taste personally"
+                  exotic for my taste"
             rating="8 / 10"
             shopImageSource={imgMazarine} />
         </div>

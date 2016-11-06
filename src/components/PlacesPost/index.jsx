@@ -29,10 +29,10 @@ class CoffeePost extends Component {
           </div>
           <div className="cf">
             <div className="fl">
-              <h3 className="space-mono bold black mb1 f5">The Good</h3>
-              <p className="space-mono black-60 lh-copy mt0 mb2 f5">{good}</p>
-              <h3 className="space-mono bold black mb1 f5">The Bad</h3>
-              <p className="space-mono black-60 lh-copy mt0 mb2 f5">{bad}</p>
+              <h3 className="biorhyme bold black mb1 f5">The Good</h3>
+              <p className="space-mono black-60 lh-copy mt0 mb3 f5">{good}</p>
+              <h3 className="biorhyme bold black mb1 f5">The Bad</h3>
+              <p className="space-mono black-60 lh-copy mt0 mb3 f5">{bad}</p>
             </div>
             <div className="w-100 fr">
               <h3 className="tr space-mono fw4 tracked ttu mb2 black-60 f5">Rating</h3>
