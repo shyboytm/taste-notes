@@ -10,7 +10,7 @@ class Coffee extends Component {
     const imgOne =    require('../../img/hakimson-estate-peaberry.jpg');
 
     return (
-      <div className="w-90-ns w-100 pv5-ns center cf">
+      <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Vista Hermosa"
