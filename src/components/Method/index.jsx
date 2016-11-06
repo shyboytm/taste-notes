@@ -14,7 +14,7 @@ class Method extends Component {
         <Header />
         <Banner bannerImageSource={methodImg} />
         <div className="w-90-ns w-100 pv4-ns center">
-          <h2 className="mv4 tc f1-ns f2 biorhyme fw3">Preferred Brewing Method</h2>
+          <h2 className="mv4 tc f1-ns f2 biorhyme fw3 red">Preferred Brewing Method</h2>
           <div className="pv3-ns pv1 w-60-l w-80-m w-90 center">
             <p className="mb5 f4 space-mono lh-copy black-60">
               This is my personal favorite way to brew of all the different methods

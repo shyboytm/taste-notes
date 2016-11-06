@@ -14,7 +14,7 @@ class About extends Component {
         <Header />
         <Banner bannerImageSource={aboutImg} />
         <div className="w-90-ns w-100 pv4-ns center">
-          <h2 className="mv4 tc f1-ns f2 biorhyme fw3">About Taste Notes</h2>
+          <h2 className="mv4 tc f1-ns f2 biorhyme fw3 red">About Taste Notes</h2>
           <div className="pv3-ns pv1 w-60-l w-80-m w-90 center">
             <p className="f4 mt0 space-mono lh-copy black b">
               Hey! My name is Dennis Cortes.
@@ -33,17 +33,6 @@ class About extends Component {
             <p className="mb5 f4 space-mono lh-copy black-60">
               If you'd like to support the site, pick up some coffee tools from the Gear page!
             </p>
-
-            <h4 className="f4 space-mono lh-title black">
-              For the tech people:
-            </h4>
-            <p className="f4 space-mono lh-copy black-60">
-              If you're interested, this site is (amateurly) built with:
-            </p>
-            <ul>
-              <li className="lh-copy space-mono f4">React</li>
-              <li className="space-mono f4">Tachyons</li>
-            </ul>
           </div>
         </div>
         <Footer />
