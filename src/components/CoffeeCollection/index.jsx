@@ -5,13 +5,25 @@ import CoffeePost from '../CoffeePost'
 class Coffee extends Component {
   render() {
 
-    const imgThree =  require('../../img/vista-hermosa.jpg');
-    const imgTwo =    require('../../img/las-colinas.jpg');
-    const imgOne =    require('../../img/hakimson-estate-peaberry.jpg');
+    const imgKaratina =   require('../../img/kenya-karatina.jpg');
+    const imgHermosa  =   require('../../img/vista-hermosa.jpg');
+    const imgColinas  =   require('../../img/las-colinas.jpg');
+    const imgPeaberry =   require('../../img/hakimson-estate-peaberry.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Kenya Karatina AA"
+            coffee="Réveille Coffee Co."
+            tasteNotes="Strawberry, Rosé, Pomegranate"
+            location="Kenya"
+            thoughts="Really great sweetness to the coffee but had an overwhelmingly sweet aftertaste.
+                      While it makes sense from the taste notes, the roast did not feel balanced. The
+                      coffee had an incredible smell from the grind to the actual brew."
+            rating="7 / 10"
+            coffeeImageSource={imgKaratina} />
+
           <CoffeePost
             title="Vista Hermosa"
             coffee="Sweet Bloom"
@@ -21,8 +33,10 @@ class Coffee extends Component {
                       Might be a bit too sweet for most coffee drinkers but I'm usually
                       a fan of sweeter and lighter roasts."
             rating="8 / 10"
-            coffeeImageSource={imgThree} />
+            coffeeImageSource={imgHermosa} />
+        </div>
 
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Las Colinas"
             coffee="George Howell Coffee"
@@ -33,10 +47,8 @@ class Coffee extends Component {
                       Really enjoyed this coffee after having never heard of George Howell Coffee,
                       would definitely recommend."
             rating="7.5 / 10"
-            coffeeImageSource={imgTwo} />
-        </div>
+            coffeeImageSource={imgColinas} />
 
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
@@ -48,7 +60,7 @@ class Coffee extends Component {
                       provided. I enjoyed soft sweetness and light aftertaste despite the
                       intense sound of the taste notes listed."
             rating="9 / 10"
-            coffeeImageSource={imgOne} />
+            coffeeImageSource={imgPeaberry} />
         </div>
       </div>
     );
