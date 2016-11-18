@@ -13,6 +13,9 @@ class Gear extends Component {
           <div className="content-end flex flex-wrap">
 
             <GearPost />
+            <GearPost />
+            <GearPost />
+            <GearPost />
 
           </div>
         </div>
