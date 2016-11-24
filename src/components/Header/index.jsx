@@ -21,7 +21,7 @@ class Header extends Component {
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/" title="Coffee">Coffee</Link>
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/places" title="Places">Places</Link>
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/method" title="Method">Method</Link>
-            <a className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/gear" title="Gear">Gear</a>
+            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/gear" title="Gear">Gear</Link>
             <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/about" title="About">About</Link>
           </div>
         </div>

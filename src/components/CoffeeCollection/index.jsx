@@ -9,10 +9,22 @@ class Coffee extends Component {
     const imgHermosa  =   require('../../img/vista-hermosa.jpg');
     const imgColinas  =   require('../../img/las-colinas.jpg');
     const imgPeaberry =   require('../../img/hakimson-estate-peaberry.jpg');
+    const imgLimu =       require('../../img/limu-ethiopia.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Limu Ethiopia"
+            coffee="Commonwealth"
+            tasteNotes="Raspberry, Black Tea, Brown Sugar, Floral"
+            location="Ethiopia"
+            thoughts="Overall an extremely balanced roast. The first taste is sweet, accompanied by a
+                      slight taste of salt and black tea. The ending and aftertaste bring the raspberry
+                      and floral taste notes out in a very pleasing manner."
+            rating="8 / 10"
+            coffeeImageSource={imgLimu} />
+
           <CoffeePost
             title="Kenya Karatina AA"
             coffee="Réveille Coffee Co."
@@ -23,7 +35,9 @@ class Coffee extends Component {
                       coffee had an incredible smell from the grind to the actual brew."
             rating="7 / 10"
             coffeeImageSource={imgKaratina} />
+        </div>
 
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Vista Hermosa"
             coffee="Sweet Bloom"
@@ -34,9 +48,7 @@ class Coffee extends Component {
                       a fan of sweeter and lighter roasts."
             rating="8 / 10"
             coffeeImageSource={imgHermosa} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Las Colinas"
             coffee="George Howell Coffee"
@@ -48,7 +60,9 @@ class Coffee extends Component {
                       would definitely recommend."
             rating="7.5 / 10"
             coffeeImageSource={imgColinas} />
+        </div>
 
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
