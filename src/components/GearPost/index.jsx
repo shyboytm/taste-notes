@@ -32,7 +32,7 @@ class GearPost extends Component {
               </div>
               <div className="ph3 mb3 w-100 tl">
                 <span className="red b">{productPrice}</span>
-                <span className="fr f6 dim red no-underline dib">See Details →</span>
+                <span className="fr f6 dim red no-underline dib space-mono ttu">See Details →</span>
               </div>
             </a>
           </div>
