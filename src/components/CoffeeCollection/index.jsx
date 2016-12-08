@@ -10,10 +10,23 @@ class Coffee extends Component {
     const imgColinas  =   require('../../img/las-colinas.jpg');
     const imgPeaberry =   require('../../img/hakimson-estate-peaberry.jpg');
     const imgLimu =       require('../../img/limu-ethiopia.jpg');
+    const imgNacimiento = require('../../img/nacimiento-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Nacimiento"
+            coffee="Jobneel Caceres Dios"
+            tasteNotes="Bourbon, Chocolate, Cherries, Wine"
+            location="Honduras"
+            thoughts="I was really excited to try this roast because it comes from the 2016 Nordic
+                      roaster of the year, Tim Wendelboe. The roast did not dissapoint with a light
+                      chocolate and cherry taste, followed by a bright, nutty aftertaste. One of the
+                      best roasts I've had to date."
+            rating="9 / 10"
+            coffeeImageSource={imgNacimiento} />
+
           <CoffeePost
             title="Limu Ethiopia"
             coffee="Commonwealth"
@@ -24,7 +37,9 @@ class Coffee extends Component {
                       and floral taste notes out in a very pleasing manner."
             rating="8 / 10"
             coffeeImageSource={imgLimu} />
+        </div>
 
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Kenya Karatina AA"
             coffee="Réveille Coffee Co."
@@ -35,9 +50,7 @@ class Coffee extends Component {
                       coffee had an incredible smell from the grind to the actual brew."
             rating="7 / 10"
             coffeeImageSource={imgKaratina} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Vista Hermosa"
             coffee="Sweet Bloom"
@@ -46,9 +59,11 @@ class Coffee extends Component {
             thoughts="Really bright and sweet taste overall with a great aftertaste.
                       Might be a bit too sweet for most coffee drinkers but I'm usually
                       a fan of sweeter and lighter roasts."
-            rating="8 / 10"
+            rating="8.5 / 10"
             coffeeImageSource={imgHermosa} />
+        </div>
 
+        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Las Colinas"
             coffee="George Howell Coffee"
@@ -60,9 +75,7 @@ class Coffee extends Component {
                       would definitely recommend."
             rating="7.5 / 10"
             coffeeImageSource={imgColinas} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
