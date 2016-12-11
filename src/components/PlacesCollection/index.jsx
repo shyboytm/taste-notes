@@ -11,7 +11,8 @@ class PlacesCollection extends Component {
     const imgMazarine =     require('../../img/mazarine-coffee.jpg');
     const imgSightglass =   require('../../img/sightglass-coffee.jpg');
     const imgComet =        require('../../img/comet-coffee.jpg');
-    const imgMudHouse =  require('../../img/mud-house.jpg');
+    const imgMudHouse =     require('../../img/mud-house.jpg');
+    const imgSump =         require('../../img/sump-coffee.jpg');
     const imgBPGT =         require('../../img/barista-parlor-gt.jpg');
     const imgBPGS =         require('../../img/barista-parlor-gs.jpg');
     const imgEighth =       require('../../img/eighth-and-roast.jpg');
@@ -92,14 +93,13 @@ class PlacesCollection extends Component {
             shopImageSource={imgMudHouse} />
 
           <PlacesPost
-            title="Comet Coffee"
+            title="Sump Coffee"
             location="Saint Louis, MO"
-            good="Pastries are amazing, great care for their coffee brewing, employees
-                  are very kind and helpful, outlets everywhere"
-            bad="Not much seating, very crowded if you come in at the wrong time, espresso drinks
-                 aren't very good"
-            rating="8.5 / 10"
-            shopImageSource={imgComet} />
+            good="Awesome space, great coffee, they roast their own beans, awesome branding, very open
+                work area"
+            bad="No food (from the time I last went) and hard to find plugs"
+            rating="7 / 10"
+            shopImageSource={imgSump} />
         </div>
 
         <div className="content-end flex flex-wrap">
