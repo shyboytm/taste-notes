@@ -11,6 +11,7 @@ class PlacesCollection extends Component {
     const imgMazarine =     require('../../img/mazarine-coffee.jpg');
     const imgSightglass =   require('../../img/sightglass-coffee.jpg');
     const imgComet =        require('../../img/comet-coffee.jpg');
+    const imgMudHouse =  require('../../img/mud-house.jpg');
     const imgBPGT =         require('../../img/barista-parlor-gt.jpg');
     const imgBPGS =         require('../../img/barista-parlor-gs.jpg');
     const imgEighth =       require('../../img/eighth-and-roast.jpg');
@@ -83,8 +84,28 @@ class PlacesCollection extends Component {
 
         <div className="content-end flex flex-wrap">
           <PlacesPost
-            title="Bond Coffee"
+            title="The Mud House"
             location="Saint Louis, MO"
+            good="Really good food, homey feeling, has both breakfast and lunch, great for working"
+            bad="Not much seating, gets crowded on weekends because the food, coffee isn't too great"
+            rating="7.5 / 10"
+            shopImageSource={imgMudHouse} />
+
+          <PlacesPost
+            title="Comet Coffee"
+            location="Saint Louis, MO"
+            good="Pastries are amazing, great care for their coffee brewing, employees
+                  are very kind and helpful, outlets everywhere"
+            bad="Not much seating, very crowded if you come in at the wrong time, espresso drinks
+                 aren't very good"
+            rating="8.5 / 10"
+            shopImageSource={imgComet} />
+        </div>
+
+        <div className="content-end flex flex-wrap">
+          <PlacesPost
+            title="Bond Coffee"
+            location="Nashville, TN"
             good="Great coffee both black and espresso, doesn't get crowded, great lighting, has
                   lunch and ice cream"
             bad="Not much seating, tables are very small, food isn't great, limited selection on
