@@ -5,8 +5,10 @@ import PlacesPost from '../PlacesPost'
 class PlacesCollection extends Component {
   render() {
 
-    const imgMazarine =     require('../../img/mazarine-coffee.jpg');
+    const imgPinewood =     require('../../img/pinewood-social.jpg');
+    const imgCrema =        require('../../img/crema-coffee.jpg');
     const imgReveille =     require('../../img/reveille-coffee.jpg');
+    const imgMazarine =     require('../../img/mazarine-coffee.jpg');
     const imgSightglass =   require('../../img/sightglass-coffee.jpg');
     const imgComet =        require('../../img/comet-coffee.jpg');
     const imgBPGT =         require('../../img/barista-parlor-gt.jpg');
@@ -16,6 +18,26 @@ class PlacesCollection extends Component {
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
+        <div className="content-end flex flex-wrap">
+          <PlacesPost
+            title="Pinewood Social"
+            location="Nashville, TN"
+            good="Great place for both working and meeting with friends, also a bar and restaurant,
+                  has a bowling alley, incredible food, serves Crema coffee"
+            bad="Expensive, limited seating for working, usually loud and crowded"
+            rating="8.5 / 10"
+            shopImageSource={imgPinewood} />
+
+          <PlacesPost
+            title="Crema Coffee"
+            location="Nashville, TN"
+            good="Great interior, awesome branding and packaging, comfortable outside seating, very
+                  experienced and knowledgeable baristas"
+            bad="Feels small and crammed, not really for working, usually a long wait"
+            rating="7.5 / 10"
+            shopImageSource={imgCrema} />
+        </div>
+
         <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Réveille Coffee"
