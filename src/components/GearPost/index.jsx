@@ -22,7 +22,7 @@ class GearPost extends Component {
       <div className="items-start dim w-25-l w-50-m w-100 ph3 pv2 mb3 center relative">
         <div className="content-end fl">
           <div className="br2 bg-white fl">
-            <a  href={productLink} className="ph2 ph0-ns link db">
+            <a target="_blank" href={productLink} className="ph2 ph0-ns link db">
               <div className="pa3 cf w-100">
                 <img src={productImage} alt="Product" className="w-100" />
                 <h3 className="biorhyme f4 mt0 black lh-title fw5">{productName}</h3>
