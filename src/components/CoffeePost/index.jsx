@@ -36,7 +36,7 @@ class CoffeePost extends Component {
               <h3 className="biorhyme bold black mb1 f5">Location</h3>
               <p className="space-mono black-60 lh-copy mt0 mb3 f5">{location}</p>
               <h3 className="biorhyme bold black mb1 f5">Thoughts</h3>
-              <p className="space-mono black-60 lh-copy mt0 mb3 f5">{thoughts}</p>
+              <p className="space-mono black-60 lh-copy mt0 mb3 f5-ns f6">{thoughts}</p>
             </div>
             <div className="w-100 fr">
               <h3 className="tr space-mono fw4 tracked ttu mb2 black-60 f5">Rating</h3>
