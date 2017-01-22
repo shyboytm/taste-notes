@@ -12,10 +12,24 @@ class Coffee extends Component {
     const imgLimu =         require('../../img/limu-ethiopia.jpg');
     const imgNacimiento =   require('../../img/nacimiento-coffee.jpg');
     const imgCelebration =  require('../../img/celebration-blend.jpg');
+    const imgTikur =        require('../../img/tikur-anbessa.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Tikur Anbessa"
+            coffee="Intelligentsia"
+            tasteNotes="Honeysuckle, Kiwi, Ripe Pear"
+            location="Ethiopia"
+            thoughts="Intelligentsia roasts are usually my favorite, but I was pretty dissapointed
+                      with this specific roast. Although the Taste Notes were accurate, every cup
+                      I had from this batch was overly bitter compared to what I am used to. I will
+                      say however, the first taste of each sip was great and right on point with the
+                      taste notes provided."
+            rating="6.5 / 10"
+            coffeeImageSource={imgTikur} />
+
           <CoffeePost
             title="Celebration Blend, 22nd Edition"
             coffee="Intelligentsia"
@@ -29,20 +43,18 @@ class Coffee extends Component {
             rating="8.5 / 10"
             coffeeImageSource={imgCelebration} />
 
-        <CoffeePost
-          title="Nacimiento"
-          coffee="Jobneel Caceres Dios"
-          tasteNotes="Bourbon, Chocolate, Cherries, Wine"
-          location="Honduras"
-          thoughts="I was really excited to try this roast because it comes from the 2016 Nordic
-                    roaster of the year, Tim Wendelboe. The roast did not dissapoint with a light
-                    chocolate and cherry taste, followed by a bright, nutty aftertaste. One of the
-                    best roasts I've had to date."
-          rating="9 / 10"
-          coffeeImageSource={imgNacimiento} />
-        </div>
+          <CoffeePost
+            title="Nacimiento"
+            coffee="Jobneel Caceres Dios"
+            tasteNotes="Bourbon, Chocolate, Cherries, Wine"
+            location="Honduras"
+            thoughts="I was really excited to try this roast because it comes from the 2016 Nordic
+                      roaster of the year, Tim Wendelboe. The roast did not dissapoint with a light
+                      chocolate and cherry taste, followed by a bright, nutty aftertaste. One of the
+                      best roasts I've had to date."
+            rating="9 / 10"
+            coffeeImageSource={imgNacimiento} />
 
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Limu Ethiopia"
             coffee="Commonwealth"
@@ -64,9 +76,7 @@ class Coffee extends Component {
                       coffee had an incredible smell from the grind to the actual brew."
             rating="7 / 10"
             coffeeImageSource={imgKaratina} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Vista Hermosa"
             coffee="Sweet Bloom"
@@ -90,21 +100,6 @@ class Coffee extends Component {
             rating="7.5 / 10"
             coffeeImageSource={imgColinas} />
 
-          <CoffeePost
-            title="Hakimson Estate Peaberry"
-            coffee="Intelligentsia"
-            tasteNotes="Tart Cherry, Limeade, Papaya"
-            location="Kenya"
-            thoughts="One of my favorite roasts I've had so far. This was a limited edition
-                      release from Intelligentsia and did not dissapoint. I was able to get
-                      the last bag from my local shop and loved the balanced taste this roast
-                      provided. I enjoyed soft sweetness and light aftertaste despite the
-                      intense sound of the taste notes listed."
-            rating="9 / 10"
-            coffeeImageSource={imgPeaberry} />
-        </div>
-
-        <div className="content-end flex flex-wrap">
           <CoffeePost
             title="Hakimson Estate Peaberry"
             coffee="Intelligentsia"
