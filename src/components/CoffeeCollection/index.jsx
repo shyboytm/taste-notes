@@ -15,10 +15,23 @@ class Coffee extends Component {
     const imgTikur =        require('../../img/tikur-anbessa.jpg');
     const imgMorita =       require('../../img/morita-coffee.jpg');
     const imgLayo =         require('../../img/layo-tiraga-coffee.jpg');
+    const imgMaraba =       require('../../img/maraba-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Maraba"
+            coffee="Sweet Bloom"
+            tasteNotes="Rosé, Hibiscus Tea, Key Lime, Honey"
+            location="Southern Province, Rwanda"
+            thoughts="Personally was not a big fan of this roast. I believe it's just because of the specific flavors
+                      that aren't my personal favorites including the Rosé and Key Lime tastes. As you may or may not
+                      know, I tend to stick more on the tame and savory side of taste notes, so this roast was a bit
+                      too sweet for my liking. Definitely not a bad roast by any means, was easy to brew and fun to try."
+            rating="7 / 10"
+            coffeeImageSource={imgMaraba} />
+
           <CoffeePost
             title="Layo Tiraga"
             coffee="Jobneel Caceres Dios"
