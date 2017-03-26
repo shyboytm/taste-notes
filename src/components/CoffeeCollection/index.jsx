@@ -13,10 +13,37 @@ class Coffee extends Component {
     const imgNacimiento =   require('../../img/nacimiento-coffee.jpg');
     const imgCelebration =  require('../../img/celebration-blend.jpg');
     const imgTikur =        require('../../img/tikur-anbessa.jpg');
+    const imgMorita =       require('../../img/morita-coffee.jpg');
+    const imgLayo =         require('../../img/layo-tiraga-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Layo Tiraga"
+            coffee="Jobneel Caceres Dios"
+            tasteNotes="Tangerine, Citrus Zest, & Jasmine"
+            location="Sidama, Ethiopia"
+            thoughts="After loving the Christmas blend from Jobneel Caceres Dios, I had to try one of their
+                      non-limited roasts to see if it was as good as their limited ones. While I still really enjoyed
+                      this roast, it wasn't up to par with their Christmas blend, understandably so. I will say this
+                      roast was a little on the bitter side for me, even after playing with different water to coffee
+                      ratios. Definitely going to try another one of their roasts when I get a chance!"
+            rating="7.5 / 10"
+            coffeeImageSource={imgLayo} />
+
+          <CoffeePost
+            title="Morita"
+            coffee="Sweet Bloom"
+            tasteNotes="Brownbutter, Creme Brulee, Honeycrisp"
+            location="Baroida Plantation"
+            thoughts="Sweet Bloom is slowly but surely becoming one of my favorite roasting companies
+                      as of lately. Despite the interesting taste notes described for this coffee,
+                      I found this roast to be quite tame. With a balance of sweetness in creme brulee and
+                      honeycrisp, and a contrasting saltiness from brownbutter. Would definitely recommend."
+            rating="8 / 10"
+            coffeeImageSource={imgMorita} />
+
           <CoffeePost
             title="Tikur Anbessa"
             coffee="Intelligentsia"
