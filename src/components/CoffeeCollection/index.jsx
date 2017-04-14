@@ -16,10 +16,23 @@ class Coffee extends Component {
     const imgMorita =       require('../../img/morita-coffee.jpg');
     const imgLayo =         require('../../img/layo-tiraga-coffee.jpg');
     const imgMaraba =       require('../../img/maraba-coffee.jpg');
+    const imgBirembo =      require('../../img/birembo-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Birembo"
+            coffee="Olympia Coffee"
+            tasteNotes="Citrus, Black Tea, Strawberry"
+            location="Rwanda"
+            thoughts="I wanted to try a new roasting company since I had a bad experience with my usual Sweet Bloom. I
+                      hadn't heard of Olympia Coffee roasters but I was pleasantly surprised with this roast. Although
+                      on the bitter side of coffee, it had a nice sweetness that quickly takes over any bitterness. The
+                      main taste I get from the taste notes is the Black Tea, with a hint of the others in the aftertaste."
+            rating="8.5 / 10"
+            coffeeImageSource={imgBirembo} />
+
           <CoffeePost
             title="Maraba"
             coffee="Sweet Bloom"
