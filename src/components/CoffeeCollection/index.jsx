@@ -41,7 +41,10 @@ class Coffee extends Component {
             coffee="Olympia Coffee"
             tasteNotes="Blackberry, Custard, Citrus"
             location="Kagumoini"
-            thoughts=""
+            thoughts="Although not as tasty as the previous Birembo coffee I had, still a decent roast from the folks at Olympia.
+                      This roast was a bit dry and the custard from the taste notes felt overpowering to me, sometimes leaving
+                      a bitter/sweet taste in my mouth as an aftertaste. I will say the initial taste of the coffee makes up for
+                      this though and still tastes great overall."
             rating="7.5 / 10"
             coffeeImageSource={imgSweetheart} />
 
