@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LazyLoad from 'react-lazy-load';
 
 class CoffeePost extends Component {
   static propTypes = {
@@ -23,7 +24,9 @@ class CoffeePost extends Component {
 
     return (
       <div className="items-start w-50-l w-80-m w-100 ph3-l mb5 mh0-l center relative">
-        <img className="relative z-1" src={coffeeImageSource} alt="Coffee" />
+        <LazyLoad offset={500}>
+          <img className="relative z-1" src={coffeeImageSource} alt="Coffee" />
+        </LazyLoad>
         <div className="relative z-max info-margin bg-white ph4 pv3 w-80 center">
           <div>
             <h1 className="biorhyme fw3 lh-title mb2 mt3 f2-ns f3">{title}</h1>

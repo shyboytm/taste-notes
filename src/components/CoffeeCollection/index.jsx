@@ -17,10 +17,34 @@ class Coffee extends Component {
     const imgLayo =         require('../../img/layo-tiraga-coffee.jpg');
     const imgMaraba =       require('../../img/maraba-coffee.jpg');
     const imgBirembo =      require('../../img/birembo-coffee.jpg');
+    const imgSweetheart =   require('../../img/sweetheart.jpg');
+    const imgPiramide =   require('../../img/la-piramide.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="La Piramide"
+            coffee="Sump Coffee"
+            tasteNotes="Sweet, Orange Blossom, Black Tea"
+            location="Colombia"
+            thoughts="Wow. I'm drinking this roast as I'm writing this and that's what I have to say for this roast.
+                      Such a great and rich taste throughout the cup of coffee. I can't put my finger on exactly why
+                      this roast is so great, but I have a feeling the Black Tea and Orange from the taste notes are
+                      complimenting each other very well. Would definitely recommend picking this up. And look at that
+                      packaging!"
+            rating="9.5 / 10"
+            coffeeImageSource={imgPiramide} />
+
+          <CoffeePost
+            title="Sweetheart"
+            coffee="Olympia Coffee"
+            tasteNotes="Blackberry, Custard, Citrus"
+            location="Kagumoini"
+            thoughts=""
+            rating="7.5 / 10"
+            coffeeImageSource={imgSweetheart} />
+
           <CoffeePost
             title="Birembo"
             coffee="Olympia Coffee"
