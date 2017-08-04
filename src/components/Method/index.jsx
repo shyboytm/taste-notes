@@ -12,10 +12,10 @@ class Method extends Component {
     return (
       <div>
         <Header />
-        <Banner bannerImageSource={methodImg} />
-        <div className="w-90-ns w-100 pv4-ns center">
-          <h2 className="mv4 tc f1-ns f2 biorhyme fw3 red">Preferred Brewing Method</h2>
-          <div className="pv3-ns pv1 w-60-l w-80-m w-90 center">
+        <div className="flex-l db w-90-ns w-80 pv4 center">
+          <div className="flex-auto flex-basis pr4-l">
+            <h2 className="flex-l db mv4 tl-l tc f1-ns f2 biorhyme fw3 red">Preferred Brewing Method</h2>
+            <div className="flex-l db flex-column pv3-ns pv1 center">
             <p className="mb5 f4 space-mono lh-copy black-60">
               This is my personal favorite way to brew of all the different methods
               I have tried so far. I learned this method from Blue Bottle Coffee.
@@ -102,9 +102,13 @@ class Method extends Component {
             <p className="mb5 f4 space-mono lh-copy black-60">
               Enjoy!
             </p>
-            <p className="mb5 f4 space-mono lh-copy black b tc measure center">
+            <p className="mb5 f4 space-mono lh-copy black b measure center">
               If you need any of these tools mentioned, check out the Gear page and stock up!
             </p>
+            </div>
+          </div>
+          <div className="flex-auto pl4-l mv4-l mv3">
+            <img className="flex-auto" src={methodImg} />
           </div>
         </div>
         <Footer />

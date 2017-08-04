@@ -10,7 +10,7 @@ class Banner extends Component {
 
     return (
       <div>
-        <div className="w-80-ns w-100 pv5-ns center">
+        <div className="w-100 pv5-ns center">
           <img className="w-100" src={bannerImageSource} alt="Banner" />
         </div>
       </div>

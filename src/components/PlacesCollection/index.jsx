@@ -5,6 +5,7 @@ import PlacesPost from '../PlacesPost'
 class PlacesCollection extends Component {
   render() {
 
+    const imgCityAndState = require('../../img/city-and-state.png');
     const imgPinewood =     require('../../img/pinewood-social.jpg');
     const imgCrema =        require('../../img/crema-coffee.jpg');
     const imgReveille =     require('../../img/reveille-coffee.jpg');
@@ -22,6 +23,15 @@ class PlacesCollection extends Component {
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
           <PlacesPost
+            title="City and State"
+            location="Memphis, TN"
+            good="Amazing coffee and espresso drinks, has a boutique in store, employees
+                  are very pleasant, outdoor seating, animal friendly"
+            bad="Uncomfortable seating, limited food, pastries are pricey"
+            rating="8.5 / 10"
+            shopImageSource={imgCityAndState} />
+
+          <PlacesPost
             title="Pinewood Social"
             location="Nashville, TN"
             good="Great place for both working and meeting with friends, also a bar and restaurant,
@@ -38,9 +48,7 @@ class PlacesCollection extends Component {
             bad="Feels small and crammed, not really for working, usually a long wait"
             rating="7.5 / 10"
             shopImageSource={imgCrema} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Réveille Coffee"
             location="San Francisco, CA"
@@ -59,9 +67,7 @@ class PlacesCollection extends Component {
                   exotic for my taste"
             rating="8 / 10"
             shopImageSource={imgMazarine} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Sightglass"
             location="San Francisco, CA"
@@ -81,9 +87,7 @@ class PlacesCollection extends Component {
                  aren't very good"
             rating="8.5 / 10"
             shopImageSource={imgComet} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="The Mud House"
             location="Saint Louis, MO"
@@ -100,9 +104,7 @@ class PlacesCollection extends Component {
             bad="No food (from the time I last went) and hard to find plugs"
             rating="7 / 10"
             shopImageSource={imgSump} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Bond Coffee"
             location="Nashville, TN"
@@ -122,9 +124,7 @@ class PlacesCollection extends Component {
                  hard to come by"
             rating="8.5 / 10"
             shopImageSource={imgBPGT} />
-        </div>
 
-        <div className="content-end flex flex-wrap">
           <PlacesPost
             title="Barista Parlor GS"
             location="Nashville, TN"

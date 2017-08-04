@@ -19,10 +19,24 @@ class Coffee extends Component {
     const imgBirembo =      require('../../img/birembo-coffee.jpg');
     const imgSweetheart =   require('../../img/sweetheart.jpg');
     const imgPiramide =   require('../../img/la-piramide.jpg');
+    const imgDuromina =   require('../../img/duromina-coffee.png');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Duromina"
+            coffee="Sey Coffee"
+            tasteNotes="Not Provided"
+            location="Ethiopia"
+            thoughts="To be completely transparent, what intrigued me to this coffee was it's price. At only $11 as
+                      opposed to the usual $20+ I pay for other coffees, I thought it would be worth a try. It was
+                      surprisingly better than expected, but the limiting factor being a very dry and bland aftertaste.
+                      I usually expect a fill of flavor aftertaste but was underwhelmed and literally left thirsty. I
+                      can't complain for $11 though, was definitely worth it."
+            rating="7.5 / 10"
+            coffeeImageSource={imgDuromina} />
+
           <CoffeePost
             title="La Piramide"
             coffee="Sump Coffee"
