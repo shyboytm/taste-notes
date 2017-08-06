@@ -18,12 +18,26 @@ class Coffee extends Component {
     const imgMaraba =       require('../../img/maraba-coffee.jpg');
     const imgBirembo =      require('../../img/birembo-coffee.jpg');
     const imgSweetheart =   require('../../img/sweetheart.jpg');
-    const imgPiramide =   require('../../img/la-piramide.jpg');
-    const imgDuromina =   require('../../img/duromina-coffee.png');
+    const imgPiramide =     require('../../img/la-piramide.jpg');
+    const imgDuromina =     require('../../img/duromina-coffee.png');
+    const imgHeleanna =     require('../../img/heleanna-coffee.png');
 
     return (
       <div className="w-90-ns w-100 pv4-ns center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Heleanna"
+            coffee="Barista Parlor"
+            tasteNotes="Orange Blossom Honey, Dates, Papaya"
+            location="Kochere, Ethiopia"
+            thoughts="If you did not know, Barista Parlor in Nashville happens to be my favorite coffee shop ever.
+                      Now living in Memphis, it was a very pleasant surprise to find Barista Parlor's coffee at a local
+                      coffee shop here. Almost as good as the packaging, this roast is incredible. I'm not usually a fan
+                      of sweeter coffees, but each cup of this coffee I have had has been almost perfect. The blend of
+                      flavors in this roast is wonderfully balanced with hints of nutty underflavors and aftertaste."
+            rating="9 / 10"
+            coffeeImageSource={imgHeleanna} />
+
           <CoffeePost
             title="Duromina"
             coffee="Sey Coffee"
