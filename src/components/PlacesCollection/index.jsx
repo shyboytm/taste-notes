@@ -20,7 +20,7 @@ class PlacesCollection extends Component {
     const imgBond =         require('../../img/bond-coffee.jpg');
 
     return (
-      <div className="w-90-ns w-100 pv4-ns center cf">
+      <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
           <PlacesPost
             title="City and State"

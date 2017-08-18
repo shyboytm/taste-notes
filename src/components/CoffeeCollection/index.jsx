@@ -21,10 +21,25 @@ class Coffee extends Component {
     const imgPiramide =     require('../../img/la-piramide.jpg');
     const imgDuromina =     require('../../img/duromina-coffee.png');
     const imgHeleanna =     require('../../img/heleanna-coffee.png');
+    const imgBigRiver =     require('../../img/big-river-coffee.png');
 
     return (
-      <div className="w-90-ns w-100 pv4-ns center cf">
+      <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Big River"
+            coffee="French Truck Coffee"
+            tasteNotes="Cream, Chocolate, Toffee, Green Grape"
+            location="Colombia"
+            thoughts="Having recently moved to Memphis, I was excited to try out some local roasters here.
+                      French Truck Coffee happens to be one of those places so I picked up this roast to try.
+                      As much as I wanted to enjoy this coffee, it was quite bitter despite the inviting taste
+                      notes provided. Luckily I could just dilute the coffee by adding a bit more water during
+                      brewing and enjoyed the roast much more then. Definitely a strong overall taste but I did
+                      still enjoy the coffee during the week of use."
+            rating="7 / 10"
+            coffeeImageSource={imgBigRiver} />
+
           <CoffeePost
             title="Heleanna"
             coffee="Barista Parlor"
