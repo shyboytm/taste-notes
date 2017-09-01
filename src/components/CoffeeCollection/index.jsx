@@ -5,27 +5,55 @@ import CoffeePost from '../CoffeePost'
 class Coffee extends Component {
   render() {
 
-    const imgKaratina =     require('../../img/kenya-karatina.jpg');
-    const imgHermosa  =     require('../../img/vista-hermosa.jpg');
-    const imgColinas  =     require('../../img/las-colinas.jpg');
-    const imgPeaberry =     require('../../img/hakimson-estate-peaberry.jpg');
-    const imgLimu =         require('../../img/limu-ethiopia.jpg');
-    const imgNacimiento =   require('../../img/nacimiento-coffee.jpg');
-    const imgCelebration =  require('../../img/celebration-blend.jpg');
-    const imgTikur =        require('../../img/tikur-anbessa.jpg');
-    const imgMorita =       require('../../img/morita-coffee.jpg');
-    const imgLayo =         require('../../img/layo-tiraga-coffee.jpg');
-    const imgMaraba =       require('../../img/maraba-coffee.jpg');
-    const imgBirembo =      require('../../img/birembo-coffee.jpg');
-    const imgSweetheart =   require('../../img/sweetheart.jpg');
-    const imgPiramide =     require('../../img/la-piramide.jpg');
-    const imgDuromina =     require('../../img/duromina-coffee.png');
-    const imgHeleanna =     require('../../img/heleanna-coffee.png');
-    const imgBigRiver =     require('../../img/big-river-coffee.png');
+    const imgKaratina =         require('../../img/kenya-karatina.jpg');
+    const imgHermosa  =         require('../../img/vista-hermosa.jpg');
+    const imgColinas  =         require('../../img/las-colinas.jpg');
+    const imgPeaberry =         require('../../img/hakimson-estate-peaberry.jpg');
+    const imgLimu =             require('../../img/limu-ethiopia.jpg');
+    const imgNacimiento =       require('../../img/nacimiento-coffee.jpg');
+    const imgCelebration =      require('../../img/celebration-blend.jpg');
+    const imgTikur =            require('../../img/tikur-anbessa.jpg');
+    const imgMorita =           require('../../img/morita-coffee.jpg');
+    const imgLayo =             require('../../img/layo-tiraga-coffee.jpg');
+    const imgMaraba =           require('../../img/maraba-coffee.jpg');
+    const imgBirembo =          require('../../img/birembo-coffee.jpg');
+    const imgSweetheart =       require('../../img/sweetheart.jpg');
+    const imgPiramide =         require('../../img/la-piramide.jpg');
+    const imgDuromina =         require('../../img/duromina-coffee.png');
+    const imgHeleanna =         require('../../img/heleanna-coffee.png');
+    const imgBigRiver =         require('../../img/big-river-coffee.jpg');
+    const imgHouseBlend =       require('../../img/intelligentsia-house-coffee.jpg');
+    const imgDrBeansEthiopia =  require('../../img/dr-beans-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Dr. Bean's Ethiopia"
+            coffee="Dr. Bean's Coffee Roasters"
+            tasteNotes="Cherry"
+            location="Ethiopia"
+            thoughts="Along with the Big River roast I tried a couple weeks ago, I wanted to try other
+                      local roasts here in Memphis since my move. Despite the packaging of this coffee,
+                      this is actually one of the better roasts I have had. Even though the Taste Notes
+                      are minimal to say the least, the taste of this coffee is very unique in a great way.
+                      This roast was quite sweet but was pleasant to drink, even alone. Highly recommend if
+                      you're looking to try something different from the usual popular companies."
+            rating="8.5 / 10"
+            coffeeImageSource={imgDrBeansEthiopia} />
+
+          <CoffeePost
+            title="House Blend"
+            coffee="Intelligentsia"
+            tasteNotes="Milk Chocolate, Mandarin, and Apple"
+            location="Costa Rica"
+            thoughts="Being a big fan of Intelligentsia, I was surpised to find a mediocre roast from them.
+                      I really was not a huge fan of this roast but I believe I got an older roast since I
+                      bought it from a grocery store instead of the usual coffee shop. Anyways, the roast was
+                      way too bitter in my opinion and was pretty difficult to drink by itself."
+            rating="6.5 / 10"
+            coffeeImageSource={imgHouseBlend} />
+
           <CoffeePost
             title="Big River"
             coffee="French Truck Coffee"
