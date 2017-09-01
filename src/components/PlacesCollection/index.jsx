@@ -5,6 +5,7 @@ import PlacesPost from '../PlacesPost'
 class PlacesCollection extends Component {
   render() {
 
+    const img387Pantry =    require('../../img/387-pantry.jpg');
     const imgCityAndState = require('../../img/city-and-state.png');
     const imgPinewood =     require('../../img/pinewood-social.jpg');
     const imgCrema =        require('../../img/crema-coffee.jpg');
@@ -22,6 +23,15 @@ class PlacesCollection extends Component {
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+          <PlacesPost
+            title="387 Pantry"
+            location="Memphis, TN"
+            good="Unique (has a store and salon too), great coffee, nice and knowledgeable baristas,
+                  great atmosphere, very quiet and doesn't get crowded"
+            bad="No food or pastries available, just grocery items"
+            rating="9 / 10"
+            shopImageSource={img387Pantry} />
+
           <PlacesPost
             title="City and State"
             location="Memphis, TN"
