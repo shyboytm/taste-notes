@@ -24,10 +24,33 @@ class Coffee extends Component {
     const imgBigRiver =         require('../../img/big-river-coffee.jpg');
     const imgHouseBlend =       require('../../img/intelligentsia-house-coffee.jpg');
     const imgDrBeansEthiopia =  require('../../img/dr-beans-coffee.jpg');
+    const imgHologram =         require('../../img/hologram-coffee.jpg');
+    const imgHunapu =           require('../../img/hunapu-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Hunapu"
+            coffee="Madcap Coffee"
+            tasteNotes="Plum, Chocolate, Creamy, Tangerine"
+            location="Guatemala"
+            thoughts=""
+            rating="9.5 / 10"
+            coffeeImageSource={imgHunapu} />
+
+          <CoffeePost
+            title="Hologram"
+            coffee="Counter Culture Coffee"
+            tasteNotes="Fruity, Milk Chocolate, Syrupy"
+            location="Ethiopia"
+            thoughts="I heard a lot of great things about Counter Culture so I was stoked to find
+                      this roast locally available. Although a tad too syrupy for my taste, I did
+                      enjoy the overall fruity but light taste throughout. The aftertaste really brings
+                      out the chocolate flavors with a hint of honey."
+            rating="7 / 10"
+            coffeeImageSource={imgHologram} />
+
           <CoffeePost
             title="Dr. Bean's Ethiopia"
             coffee="Dr. Bean's Coffee Roasters"

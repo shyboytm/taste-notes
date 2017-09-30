@@ -8,7 +8,7 @@ class Header extends Component {
 
     return (
       <div>
-        <div className="bb b--black-10 db dt-l w-100 border-box pa3 ph5-l">
+        <div className="bb b--black-10 db dt-l w-100 border-box pa3 pv2-l ph4-l">
           <Link className="db dtc-l v-mid link w-100 w-25-l tc tl-l mb2-l mb4 mb0-l" to="/" title="Home">
             <img className="w2 dim dib" src={logo} alt="Taste Notes" />
           </Link>
@@ -18,11 +18,11 @@ class Header extends Component {
             </p>
           </div>
           <div className="db dtc-l v-mid w-100 w-75-l tc tr-l mb0-l mb3">
-            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/" title="Coffee">Coffee</Link>
-            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/places" title="Places">Places</Link>
-            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/method" title="Method">Method</Link>
-            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/gear" title="Gear">Gear</Link>
-            <Link className="biorhyme link hover-red black-80 f5-l dib mr3 mr4-l" to="/about" title="About">About</Link>
+            <Link className="biorhyme link hover-red black-80 dib mr3 mr4-l" to="/" title="Coffee">Coffee</Link>
+            <Link className="biorhyme link hover-red black-80 dib mr3 mr4-l" to="/places" title="Places">Places</Link>
+            <Link className="biorhyme link hover-red black-80 dib mr3 mr4-l" to="/method" title="Method">Method</Link>
+            <Link className="biorhyme link hover-red black-80 dib mr3 mr4-l" to="/gear" title="Gear">Gear</Link>
+            <Link className="biorhyme link hover-red black-80 dib mr3 mr4-l" to="/about" title="About">About</Link>
           </div>
         </div>
       </div>
