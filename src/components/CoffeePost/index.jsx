@@ -40,7 +40,7 @@ class CoffeePost extends Component {
             </div>
             <div className="w-100 tc">
               <h3 className="space-mono tracked ttu mb2 black-30 f5">Rating</h3>
-              <h4 className="biorhyme fw3 mt0 mb2 red f2">{rating}</h4>
+              <h4 className="biorhyme fw3 mt0 mb4 red f2">{rating}</h4>
             </div>
           </div>
         </div>

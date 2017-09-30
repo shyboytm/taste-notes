@@ -35,7 +35,13 @@ class Coffee extends Component {
             coffee="Madcap Coffee"
             tasteNotes="Plum, Chocolate, Creamy, Tangerine"
             location="Guatemala"
-            thoughts=""
+            thoughts="I've been a long time admirer of Madcap. As a designer, I absolutely love their
+                      overall brand from logo to website to packaging. Their coffee lives up to how
+                      beautiful their brand is and I think I may have found my new favorite coffee
+                      roaster. Unfortunately it's a bit hard to get where I am at but will definitely
+                      treat myself to Madcap when I can. This particular roast is one of the best I've
+                      had in a long time with an array of amazing flavors from beginning to end. I thoroughly
+                      enjoyed the aftertaste of creamy citrus as well that keeps you wanting more. Highly recommend!"
             rating="9.5 / 10"
             coffeeImageSource={imgHunapu} />
 
