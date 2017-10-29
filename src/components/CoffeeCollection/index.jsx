@@ -26,10 +26,51 @@ class Coffee extends Component {
     const imgDrBeansEthiopia =  require('../../img/dr-beans-coffee.jpg');
     const imgHologram =         require('../../img/hologram-coffee.jpg');
     const imgHunapu =           require('../../img/hunapu-coffee.jpg');
+    const imgArabica =          require('../../img/arabica-coffee.jpg');
+    const imgSanJacinto =       require('../../img/san-jacinto-coffee.jpg');
+    const imgHuehuetenango =    require('../../img/huehuetenango-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+          <CoffeePost
+            title="Huehuetenango"
+            coffee="French Truck Coffee"
+            tasteNotes="Toffee, Caramel, Lemon, Lime, Red Apple"
+            location="Guatemala"
+            thoughts="I was a bit cautious when trying this roast as the last experience I had with French Truck
+                      was less than ideal. Luckily this roast was much better than the predecessor I had, despite
+                      it being on the darker side of roasts I enjoy. The taste notes provided weren't
+                      entirely accurate in my opinion and tasted more earthy and smokey to me. Still a great roast,
+                      especially for the low price ($11) as compared to other roasts I've had that I'd consider similar quality."
+            rating="7.5 / 10"
+            coffeeImageSource={imgHuehuetenango} />
+
+          <CoffeePost
+            title="San Jacinto"
+            coffee="Phil & Sebastion Coffee Roasters"
+            tasteNotes="Red Plum, Coffee Cherry, Chocolate, Bourbon"
+            location="Guatemala"
+            thoughts="Very light and airy taste with a great balance of sweet, savory, and bitter flavors.
+                      As a fan of Bourbon, I was excited to try a roast with this listed on their taste notes.
+                      Was very pleased with what this roast offered and looked forward to making this coffee
+                      throughout the week that I had it."
+            rating="8.5 / 10"
+            coffeeImageSource={imgSanJacinto} />
+
+          <CoffeePost
+            title="Arabica"
+            coffee="Edge Alley"
+            tasteNotes="Honeysuckle Lime, Walnut, Eucalyptus"
+            location="Thailand"
+            thoughts="I try to stay positive during all my reviews but this roast was absolutely terrible.
+                      I'm not sure how the creators of this thought it would be okay to sell this coffee but
+                      I've never made a worse cup of coffee than with this roast. Tasted of tap water with
+                      slight hints of bitter and nutty flavors. Needless to say I don't recommend this roast
+                      and will never buy this brand again."
+            rating="3 / 10"
+            coffeeImageSource={imgArabica} />
+
           <CoffeePost
             title="Hunapu"
             coffee="Madcap Coffee"
@@ -94,7 +135,7 @@ class Coffee extends Component {
                       notes provided. Luckily I could just dilute the coffee by adding a bit more water during
                       brewing and enjoyed the roast much more then. Definitely a strong overall taste but I did
                       still enjoy the coffee during the week of use."
-            rating="7 / 10"
+            rating="6 / 10"
             coffeeImageSource={imgBigRiver} />
 
           <CoffeePost
