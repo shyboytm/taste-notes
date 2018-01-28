@@ -29,10 +29,38 @@ class Coffee extends Component {
     const imgArabica =          require('../../img/arabica-coffee.jpg');
     const imgSanJacinto =       require('../../img/san-jacinto-coffee.jpg');
     const imgHuehuetenango =    require('../../img/huehuetenango-coffee.jpg');
+    const imgPikePlace =        require('../../img/pike-place-coffee.jpg');
+    const imgKossaGeshe =       require('../../img/kossa-geshe-coffee.jpg');
 
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+
+        {/* <CoffeePost
+          title="Kossa Geshe"
+          coffee="French Truck Coffee"
+          tasteNotes="Toffee, Caramel, Lemon, Lime, Red Apple"
+          location="Guatemala"
+          thoughts="I was a bit cautious when trying this roast as the last experience I had with French Truck
+                    was less than ideal. Luckily this roast was much better than the predecessor I had, despite
+                    it being on the darker side of roasts I enjoy. The taste notes provided weren't
+                    entirely accurate in my opinion and tasted more earthy and smokey to me. Still a great roast,
+                    especially for the low price ($11) as compared to other roasts I've had that I'd consider similar quality."
+          rating="8 / 10"
+          coffeeImageSource={imgKossaGeshe} /> */}
+
+        <CoffeePost
+          title="Pike Place"
+          coffee="Starbucks"
+          tasteNotes="Cocoa, Toasted Nuts"
+          location="Latin America"
+          thoughts="Yes, yes I know how abnormal it is for a coffee blog to have a Starbucks roast. But, it's all I could
+                    get my hands on while visiting my parents. This roast was definitely darker than noted by Starbucks and
+                    had a burnt undertone to it. The taste notes (although generic) were on par with chocolate being a primary
+                    taste followed by an earthy but bitter aftertaste."
+          rating="4 / 10"
+          coffeeImageSource={imgPikePlace} />
+
           <CoffeePost
             title="Huehuetenango"
             coffee="French Truck Coffee"
