@@ -5,6 +5,10 @@ import PlacesPost from '../PlacesPost'
 class PlacesCollection extends Component {
   render() {
 
+    const imgNemesis     =  require('../../img/nemesis-coffee.jpg');
+    const imgRevolver    =  require('../../img/revolver-coffee.jpg');
+    const imgTimbertrain =  require('../../img/timbertrain-coffee.jpg');
+    const imgBuroEspresso=  require('../../img/buro-espresso-bar.jpg');
     const imgFrenchTruck =  require('../../img/french-truck-coffee.jpg');
     const imgEdgeAlley =    require('../../img/edge-alley.jpg');
     const img387Pantry =    require('../../img/387-pantry.jpg');
@@ -25,6 +29,38 @@ class PlacesCollection extends Component {
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
+
+          <PlacesPost
+            title="Nemesis Coffee"
+            location="Vancouver, Canada"
+            good="Lovely interior, nice variety in coffee types, great pour over, great seating and wifi"
+            bad="Crowded, food isn't great, area is iffy"
+            rating="8.5 / 10"
+            shopImageSource={imgNemesis} />
+
+          <PlacesPost
+            title="Revolver Coffee"
+            location="Vancouver, Canada"
+            good="Cozy but modern interior, polite staff, great espresso drinks, unique branding, equipment eye candy"
+            bad="Not much seating, limited black coffee choices, space feels cramped"
+            rating="8 / 10"
+            shopImageSource={imgRevolver} />
+
+          <PlacesPost
+            title="Timbertrain"
+            location="Vancouver, Canada"
+            good="Unique and pretty interior, great espresso and pour over drinks, friendly staff"
+            bad="Small with minimal seating, spotty wifi, only patries for food"
+            rating="8 / 10"
+            shopImageSource={imgTimbertrain} />
+
+          <PlacesPost
+            title="Buro Espresso Bar"
+            location="Vancouver, Canada"
+            good="Plenty of seating and windows, unique but tasty espresso drinks, quiet, large tables"
+            bad="No pour over choices, mediocre pastries and food, staff isn't too friendly, spotty wifi"
+            rating="7 / 10"
+            shopImageSource={imgBuroEspresso} />
 
           <PlacesPost
             title="French Truck"

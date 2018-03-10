@@ -7,9 +7,7 @@ import Header from '../Header';
 class About extends Component {
   render() {
 
-    const aboutImg      = require('../../img/about-banner.jpg');
     const imgAboutLeft  = require('../../img/about-left.png');
-    const imgAboutRight = require('../../img/about-right.png');
 
     return (
       <div>
