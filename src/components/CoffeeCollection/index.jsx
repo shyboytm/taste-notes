@@ -30,23 +30,23 @@ class Coffee extends Component {
     const imgSanJacinto =       require('../../img/san-jacinto-coffee.jpg');
     const imgHuehuetenango =    require('../../img/huehuetenango-coffee.jpg');
     const imgKossaGeshe =       require('../../img/kossa-geshe-coffee.jpg');
+    const imgDirectTrade =      require('../../img/stumptown-house-coffee.png');
 
     return (
       <div className="w-90-ns w-100 pv4 center cf">
         <div className="content-end flex flex-wrap">
 
-        {/* <CoffeePost
-          title="Kossa Geshe"
-          coffee="French Truck Coffee"
-          tasteNotes="Toffee, Caramel, Lemon, Lime, Red Apple"
-          location="Guatemala"
-          thoughts="I was a bit cautious when trying this roast as the last experience I had with French Truck
-                    was less than ideal. Luckily this roast was much better than the predecessor I had, despite
-                    it being on the darker side of roasts I enjoy. The taste notes provided weren't
-                    entirely accurate in my opinion and tasted more earthy and smokey to me. Still a great roast,
-                    especially for the low price ($11) as compared to other roasts I've had that I'd consider similar quality."
+        <CoffeePost
+          title="Direct Trade House"
+          coffee="Stumptown Roasters"
+          tasteNotes="Candied, Milk Chocolate"
+          location="Latin America Blend"
+          thoughts="I've always loved Stumptown Roasters for their wonderful branding and finally had a chance
+                    to try their coffee for myself. The packaging was beutiful both visually and in hand and smelled wonderful.
+                    The roast tasted pretty dark even though they say this is their lightest roast that they offer. The chocolatey
+                    flavor had a mix of a slight almond taste and lightened during the aftertaste, making for a very pleasant finisher."
           rating="8 / 10"
-          coffeeImageSource={imgKossaGeshe} /> */}
+          coffeeImageSource={imgDirectTrade} />
 
           <CoffeePost
             title="Huehuetenango"
